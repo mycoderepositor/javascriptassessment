@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+    </title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <fieldset>
+        <form id="formValidation">
+            <table>
+                <h3>The complete Registration form with perfect Javascript validation:</h3>
+                <tr>
+                    <td><b>Enter Your Name</b></td>
+                    <td>:</td>
+                    <td>
+                        <div class="form-field">
+                            <input type="text" id="name">
+                            <span></span>
+                        </div>
+
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Enter Your Mail-ID</b></td>
+                    <td>:</td>
+                    <td>
+                        <div class="form-field">
+                            <input type="text" id="emailid">
+                            <span></span>
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Choose Your Gender</b></td>
+                    <td>:</td>
+                    <td>
+                        <div class="form-field">
+                            <input type="radio" name="gender" value="male">Male
+                            <input type="radio" name="gender" value="female">Female
+                            <span></span>
+                        </div>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Create Your Password</b></td>
+                    <td>:</td>
+                    <td>
+                        <div class="form-field">
+                            <input type="text" id="createpassword">
+                            <span></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Confirm Your Password</b></td>
+                    <td>:</td>
+                    <td>
+                        <div class="form-field">
+                            <input type="text" id="confirmpassword">
+                            <span></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Mobile No</b></td>
+                    <td>:</td>
+                    <td>
+                        <div class="form-field">
+                            <input type="number" id="mobileno" maxlength="10">
+                            <span></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Choose Your DOB</b></td>
+                    <td>:</td>
+                    <td>
+                        <div class="form-field">
+                            <input type="date" name="dob" id="DOB" min="1991-12-12" max="2022-12-31">
+                            <span></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Enter Your Address</b></td>
+                    <td>:</td>
+                    <td>
+                        <div class="form-field">
+                            <textarea name="address" id="address" rows="5" cols="30"></textarea>
+                            <span></span>
+                        </div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><b>Choose Your Location</b></td>
+                    <td>:</td>
+                    <td>
+                        <div class="form-field">
+                            <select id="location" list="location" name="location">
+                                <option value="Theni">Theni </option>
+                                <option value="Madurai">Madurai</option>
+                                <option value="Chennai">chennai</option>
+                                <option value="Bangalore">Bangalore</option>
+                                <option value="Mysore">Mysore
+                                </option>
+                            </select>
+                            <span></span>
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+
+            <input type="submit" value="submit" class="submitbutton" />
+            <input type="reset" value="reset" class="resetbutton" />
+        </form>
+
+    </fieldset>
+
+    <script src="validation.js" type=""></script>
+
+</body>
+
+</html>
